@@ -55,10 +55,11 @@ void CatPictureApp::update()
 	color1 = 1.0;
 	color2 = 1.0;
 	color3 = 1.0;
-	iteration = iteration + 1;
+	iteration = rand() % 6;
+	/*iteration = iteration + 1;
 	if(iteration == 6){
 		iteration = 0;
-	};
+	};*/
 	};
 
 };
